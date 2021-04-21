@@ -1,0 +1,11 @@
+sync:
+  app:
+    mode: "two-way-resolved"
+    alpha: "./"
+    beta: "vagranthost:/home/vagrant/Repositories"
+    ignore:
+      vcs: true
+      paths:
+        - "/node_modules"
+        - "/log"
+        - "/tmp"
